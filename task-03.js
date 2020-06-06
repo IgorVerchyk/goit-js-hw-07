@@ -20,7 +20,7 @@ const createGalleryItem = (items) => {
   const galleryItem = document.createElement("img");
   galleryItem.src = items.url;
   galleryItem.alt = items.alt;
-  galleryItem.classList.add("task3__gallery__item");
+  galleryItem.classList.add("task3__item");
   return galleryItem;
 };
 const galleryRef = images.map((item) => createGalleryItem(item));

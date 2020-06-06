@@ -1,13 +1,24 @@
 .task3__gallery {
   display: flex;
   flex-wrap: wrap;
-  width: 1000px;
 }
-.task3__gallery__item {
+.task3__item {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 900px;
   margin-top: 60px;
   margin-bottom: 60px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
 }
